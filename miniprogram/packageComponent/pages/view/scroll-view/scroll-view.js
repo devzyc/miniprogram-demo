@@ -97,7 +97,8 @@ Page({
   },
 
   upper(e) {
-    console.log(e)
+    console.log(e);
+    console.log("zycc");
   },
 
   lower(e) {
