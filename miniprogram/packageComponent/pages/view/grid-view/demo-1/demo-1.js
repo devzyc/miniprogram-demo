@@ -7,9 +7,9 @@ Page({
    */
   data: {
     crossAxisCount: 4,
-    crossAxisGap: 8,
-    mainAxisGap: 4,
-    gridList: generateGridList(1000, 4),
+    crossAxisGap: 28,
+    mainAxisGap: 14,
+    gridList: generateGridList(20, 4),
   },
 
   /**

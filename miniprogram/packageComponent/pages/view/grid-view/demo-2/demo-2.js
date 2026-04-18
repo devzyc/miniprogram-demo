@@ -10,7 +10,7 @@ Page({
     crossAxisCount: 4,
     crossAxisGap: 4,
     mainAxisGap: 4,
-    gridList: generateGridList(1000, 4),
+    gridList: generateGridList(30, 4),
   },
 
   /**
