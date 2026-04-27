@@ -67,7 +67,7 @@ Page({
         id: 'content',
         name: '基础内容',
         open: false,
-        pages: ['text', 'icon', 'progress', 'rich-text', 'selection']
+        pages: ['text', 'icon', 'progress', 'rich-text', 'mp-html', 'selection']
       }, {
         id: 'form',
         name: '表单组件',

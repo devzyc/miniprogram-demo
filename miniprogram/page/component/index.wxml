@@ -37,6 +37,10 @@
                     <navigator url="/packageXRFrame/{{page.url}}" class="navigator {{index + 1 === item.pages.length ? '' : 'navigator-bottom-line'}}">{{page.name}}</navigator>
                     <view class="navigator-arrow"></view>
                   </view>
+                  <view wx:elif="{{vndEntry.isVndEntry(page)}}">
+                    <navigator url="/packageComponent/pages/{{item.id}}/{{vndEntry.getSubUrlByTitle(page)}}" class="navigator {{index + 1 === item.pages.length ? '' : 'navigator-bottom-line'}}">{{page}}</navigator>
+                    <view class="navigator-arrow"></view>
+                  </view>
                   <view wx:else>
                     <navigator url="/packageComponent/pages/{{item.id}}/{{page}}/{{page}}" class="navigator {{index + 1 === item.pages.length ? '' : 'navigator-bottom-line'}}">{{page}}</navigator>
                     <view class="navigator-arrow"></view>
@@ -52,3 +56,29 @@
   </view>
 </view>
 </scroll-view>
+
+<wxs module="vndEntry">
+  var ENTRIES = [
+    {title: 'mp-html', subUrl: '/mp-html/mp-html-demo'}
+  ];
+  var isVndEntry = function (title) {
+    for (var i = 0; i < ENTRIES.length; i++) {
+      if (ENTRIES[i].title === title) {
+        return true;
+      }
+    }
+    return false;
+  };
+  var getSubUrlByTitle = function (title) {
+    for (var i = 0; i < ENTRIES.length; i++) {
+      if (ENTRIES[i].title === title) {
+        return 'vnd' + ENTRIES[i].subUrl;
+      }
+    }
+    return '';
+  };
+  module.exports = {
+    isVndEntry: isVndEntry,
+    getSubUrlByTitle: getSubUrlByTitle
+  }
+</wxs>

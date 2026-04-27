@@ -92,7 +92,8 @@
         "pages/open/open-data/open-data",
         "pages/open/web-view/web-view",
         "pages/obstacle-free/aria-component/aria-component",
-        "pages/doc-web-view/doc-web-view"
+        "pages/doc-web-view/doc-web-view",
+        "pages/content/vnd/mp-html/mp-html-demo"
       ]
     },
     {
