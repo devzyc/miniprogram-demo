@@ -1,6 +1,18 @@
 {
   "libVersion": "3.15.1",
-  "condition": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "packageSkyline/pages/worklet/css-anim/css-anim",
+          "pathName": "packageSkyline/pages/worklet/css-anim/css-anim",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  },
   "projectname": "miniprogram-demo",
   "setting": {
     "urlCheck": true,

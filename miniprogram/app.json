@@ -288,7 +288,8 @@
         "pages/share-element/card/index",
         "pages/worklet/bottom-sheet/index",
         "pages/half-page/scale-page/index",
-        "pages/half-page/half-page/index"
+        "pages/half-page/half-page/index",
+        "pages/worklet/css-anim/css-anim"
       ]
     },
     {

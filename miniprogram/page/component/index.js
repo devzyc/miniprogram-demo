@@ -11,6 +11,10 @@ Page({
         this.setData({ theme })
       })
     }
+
+    wx.switchTab({
+      url: "/page/animation/index"
+    })
   },
   onShow() {
     // 仅在 app-bar demo 页面展示

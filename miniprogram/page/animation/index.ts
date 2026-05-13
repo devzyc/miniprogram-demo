@@ -35,6 +35,7 @@ Page({
         open: false,
         pages: [
           { url: 'worklet/animation/index', name: 'worklet 动画' },
+          { url: 'worklet/css-anim/css-anim', name: 'CSS动画' },
           { url: 'worklet/gesture/index', name: '手势系统' },
           { url: 'share-element/list/index', name: '共享元素动画' },
           { url: 'worklet/bottom-sheet/index', name: '手势协商' },
