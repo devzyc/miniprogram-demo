@@ -1,0 +1,5 @@
+<view class="parent">
+    <view class="box" style="width: {{w}}rpx;height: {{h}}rpx;"></view>
+</view>
+
+<button bindtap="toggleScale" class="btn2">{{btnText}}</button>
