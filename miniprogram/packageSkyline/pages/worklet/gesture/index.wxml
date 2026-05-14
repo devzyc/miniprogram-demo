@@ -3,7 +3,7 @@
 	<pan-gesture-handler worklet:ongesture="handlepan">
 		<view class="circle"/>
 	</pan-gesture-handler>
-  <view class="title">拖动小球2</view>
+  <view class="title">拖动小球</view>
 </view>
 
 
