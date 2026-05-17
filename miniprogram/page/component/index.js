@@ -13,7 +13,7 @@ Page({
     }
 
     wx.switchTab({
-      url: "/page/animation/index"
+      url: "/page/API/index"
     })
   },
   onShow() {
