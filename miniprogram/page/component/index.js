@@ -12,9 +12,11 @@ Page({
       })
     }
 
+/*
     wx.switchTab({
       url: "/page/API/index"
     })
+*/
   },
   onShow() {
     // 仅在 app-bar demo 页面展示
